@@ -35,3 +35,19 @@ func main() {
 		}
 	}
 }
+
+/*
+USE:
+Ex.1:
+input: $ go run main.go beers --id 01D9X58E7NPXX5MVCR9QN794CH
+output: Mad Jack Mixer
+
+Ex.2:
+input: $ go run main.go beers
+output: map[01D9X58E7NPXX5MVCR9QN794CH:Mad Jack Mixer 01D9X5BQ5X48XMMVZ2F2G3R5MS:Keystone Ice 01D9X5CVS1M9VR5ZD627XDF6ND:Belgian Moon]
+
+Ex.3:
+input: $ go run main.go
+output: 2021/02/24 10:31:14 You must specified a command beers
+		exit status 1
+*/
